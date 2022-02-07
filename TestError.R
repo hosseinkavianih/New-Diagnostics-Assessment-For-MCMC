@@ -70,7 +70,7 @@ likelihood1 <- function(param){
 }
 
   set.seed(1)
-  #listofdfs <- list()
+  #set.seed(3)
   
   index <- 17
   evals <- round(param$V1[index])
