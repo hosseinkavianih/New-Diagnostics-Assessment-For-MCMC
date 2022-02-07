@@ -1,3 +1,5 @@
+# This function is adapted from https://github.com/emanuelebaratti/hymod
+
 hymodr=function(param,area,tdelta,e,p,w_initial=0,wslow_initial=0,wquick_initial=0)
 {
   
