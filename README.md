@@ -29,15 +29,19 @@ Metrics to analyze the performance of MCMC algorithms are:
 * **Euclidean distance (EU)**: measure the point to point distance between the synthetic truth and posterior values.
 
 
+### Packages
+
+Main packages that were used for this study are BayesianTools, PYMC3, and PYHMC. 
+
 ## Authors
 
-
+* Hossein Kavianihamedani
+* Julianne Quinn
 
 
 ## Acknowledgments
 
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [BayesianTools](https://github.com/florianhartig/BayesianTools)
+* [PYMC3](https://github.com/pymc-devs/pymc)
+* [PYHMC](https://github.com/rmcgibbo/pyhmc)
+* [MOEA](https://www.sciencedirect.com/science/article/pii/S0309170816300896)
