@@ -37,6 +37,14 @@ Main packages that were used for this study are BayesianTools, PYMC3, and PYHMC.
 
 The main four MCMC algorithms were developed in R. You can find the R scripts and the shell scripts that are calling those in each directory. 
 
+### Plots
+
+In this directory, you can generate Attainment and control maps, and CDF of specific metric values through different random seeds.
+
+![image](https://user-images.githubusercontent.com/54559577/198050022-834ddc9f-1434-4990-87a6-8f57eabefffc.png)
+
+![image](https://user-images.githubusercontent.com/54559577/198050266-ff67b9c8-220e-485c-a6a9-31d9e6a4df09.png)
+
 
 ## Authors
 
