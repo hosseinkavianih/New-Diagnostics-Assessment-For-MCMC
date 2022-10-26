@@ -41,7 +41,13 @@ The main four MCMC algorithms were developed in R. You can find the R scripts an
 
 In this directory, you can generate Attainment and control maps, and CDF of specific metric values through different random seeds.
 
+* **Attainment and control maps of KL values for Bimodal problem**
+
 ![image](https://user-images.githubusercontent.com/54559577/198050022-834ddc9f-1434-4990-87a6-8f57eabefffc.png)
+
+
+* **CDF of  KL values for Bimodal problem**
+
 
 ![image](https://user-images.githubusercontent.com/54559577/198050266-ff67b9c8-220e-485c-a6a9-31d9e6a4df09.png)
 
