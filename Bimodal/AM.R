@@ -5,6 +5,8 @@ library(coda)
 library(mvtnorm)
 library(lhs)
 
+# Changing Path
+# File paths text instead of hard coding
 
 param <- read.table("/gpfs/gpfs0/project/quinnlab/hk3sku/MCMC/bimodal/MHsample3.txt")
 
