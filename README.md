@@ -33,6 +33,11 @@ Metrics to analyze the performance of MCMC algorithms are:
 
 Main packages that were used for this study are BayesianTools, PYMC3, and PYHMC. 
 
+### Scripts
+
+The main four MCMC algorithms were developed in R. You can find the R scripts and the shell scripts that are calling those in each directory. 
+
+
 ## Authors
 
 * Hossein Kavianihamedani
