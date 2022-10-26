@@ -1,1 +1,2 @@
-
+- Julie suggested linking to the MOEA website
+- add demo.jar in the folder

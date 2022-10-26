@@ -26,7 +26,7 @@ Metrics to analyze the performance of MCMC algorithms are:
 
 * **Gelman-Rubin diagnostic**: ratio of within chain variance to across chain variance. A value of 1 suggests convergence to the same variance across chains.
 * **Kullback–Leibler divergence (KL)**: measure of how the synthetic truth is different than the posterior values.
-* **Euclidean distance (EU)**: measure the point to point distance between the synthetic truth and posterior values.
+* **Euclidean distance (EU)**: measure the point to point distance between the synthetic truth and posterior values. (Julie suggested to rephrase this)
 
 
 ### Packages

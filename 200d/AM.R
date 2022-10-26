@@ -4,6 +4,9 @@ library(BayesianTools)
 library(coda)
 library(mvtnorm)
 
+# for this and other scripts, maybe you could have all of the filepaths
+# in a single textfile, yaml, or json or something and then call 
+# that rather than hardcoding filepaths in each R script
 param <- read.table("/scratch/hk3sku/MCMC/Parameters/MHsamples2.txt")
 gibbs <- read.table("/scratch/hk3sku/MCMC/Parameters/MHsamples2.txt")
 #hyperparam <- read.table("DREAMsamples2.txt")
