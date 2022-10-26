@@ -1,0 +1,5 @@
+totalevals 10000 200000
+parts 1000 15000
+resamplingSteps 1 3
+adaptive 0 1
+proposalScale 0 2

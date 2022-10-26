@@ -1,0 +1,15 @@
+totalevals 10000 200000
+chains 2 20
+burnin 1 20
+optimize 0 1
+adapt 0 1
+adaptationInterval 0.1 1
+adaptationNotBefore 0.5 5
+DRlevels 1 2
+gibbs1 0 1
+gibbs2 0 1
+gibbs3 0 1
+gibbs4 0 1
+gibbs5 0 1
+gibbs6 0 1
+gibbs7 0 1

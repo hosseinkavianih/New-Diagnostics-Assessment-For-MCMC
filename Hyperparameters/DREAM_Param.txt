@@ -1,0 +1,12 @@
+totalevals 10000 200000
+nCR 1 5
+Chains 2 20
+burnin 1 20
+eps 0 1e-5
+e -.1 .1
+pCRupdate 0 1
+updateInterval 1 20
+pSnooker 0 1
+adaptation 0 1
+DEpairs 1 3
+ZupdateFrequency 1 20
