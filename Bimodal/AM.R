@@ -39,6 +39,11 @@ highervec = matrix(10,numparam,1)
 setUp <- createBayesianSetup(likelihood = likelihood1, 
                              lower = lowervec[1:numparam,1], upper  = highervec[1:numparam,1])
 
+# for anything that's hardcoded and could possibly want to be modified, 
+# the best thing would be to have all of it in some master input file; 
+# second best would be to hard code them at the top of the script so 
+# they're at least easy to find, e.g., seed, # of random seeds, adaptv value,
+# outputFile path, etc.
 set.seed(100)
 
 gibbsvector <- runif(numparam)
