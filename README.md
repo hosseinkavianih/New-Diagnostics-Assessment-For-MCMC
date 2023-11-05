@@ -10,7 +10,7 @@ MCMC algorithms can quantify parameter uncertainties in hydrological models, but
 
 ### Test Problems
 
-We have three case studies here. HYMOD which is simple hydrological model with 7 parameters, 10-D bimodal mixed Gaussian distribution, and High-dimensional (200-D) multivariate normal distribution. 
+We have three case studies here. HYMOD which is simple hydrological model with 7 parameters, 10-D bimodal mixed Gaussian distribution, and High-dimensional (100-D) multivariate normal distribution. 
 
 ### MCMC Algorithms
 
