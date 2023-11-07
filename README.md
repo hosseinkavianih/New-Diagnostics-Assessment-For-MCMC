@@ -10,7 +10,7 @@ MCMC algorithms can quantify parameter uncertainties in hydrological models, but
 
 ### Test Problems
 
-We have three case studies here. HYMOD which is simple hydrological model with 7 parameters, 10-D bimodal mixed Gaussian distribution, and High-dimensional (100-D) multivariate normal distribution. 
+We have three case studies here. 10-D bimodal mixed Gaussian distribution, and High-dimensional (100-D) multivariate normal distribution. 
 
 ### MCMC Algorithms
 
@@ -26,12 +26,12 @@ Metrics to analyze the performance of MCMC algorithms are:
 
 * **Gelman-Rubin diagnostic**: ratio of within chain variance to across chain variance. A value of 1 suggests convergence to the same variance across chains.
 * **Kullback–Leibler divergence (KL)**: measure of how the synthetic truth is different than the posterior values.
-* **Euclidean distance (EU)**: measure the point to point distance between the synthetic truth and posterior values.
+* ** Wasserstein Distance (WD)**: measure the point to point distance between the synthetic truth and posterior values.
 
 
 ### Packages
 
-Main packages that were used for this study are BayesianTools, PYMC3, and PYHMC. 
+Main packages that were used for this study are BayesianTools, PyDREAM, and PyTorch. 
 
 ### Scripts
 
