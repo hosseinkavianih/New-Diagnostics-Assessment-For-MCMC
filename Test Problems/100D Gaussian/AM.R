@@ -6,7 +6,7 @@ library(mvtnorm)
 
 param <- read.table("/gpfs/gpfs0/project/quinnlab/hk3sku/MCMC/bimodal/MHsample3.txt")
 
-numparam = 200
+numparam = 100
 
 Meanvec = matrix(0, numparam, 1)
 Covariance = matrix(NA,numparam,numparam)
