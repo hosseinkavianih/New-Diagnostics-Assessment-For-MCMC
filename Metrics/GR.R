@@ -1,10 +1,16 @@
 
+# This is a prallel run for whatever number of parameters that are
+
 arg=commandArgs(T)
 library(BayesianTools)
 
+# K defines the number of parameters
 k <- strtoi(arg[1]) + 1
 
-setwd("/gpfs/gpfs0/project/quinnlab/hk3sku/MCMC/bimodal/MHNew2")
+# Set path to the MH output files
+
+Path <- "Set the path here"
+setwd(Path)
 
 psrffinal <- matrix(NA,1000,25)
 
@@ -32,5 +38,7 @@ for (j in 1:1000) {
   }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
  }
 }
-PSRFparam1 <- paste("/gpfs/gpfs0/project/quinnlab/hk3sku/MCMC/bimodal/GelmanMH/GelmanParam", k, ".txt",sep="")
+
+# Write the output in the desired path
+PSRFparam1 <- paste(Path, "GelmanParam", k, ".txt",sep="")
 write.table(psrffinal,file = PSRFparam1)
