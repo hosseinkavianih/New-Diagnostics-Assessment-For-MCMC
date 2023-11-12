@@ -1,16 +1,16 @@
-# Bayesian
+# New Diagnostic Assessment of MCMC Algorithm Effectiveness, Efficiency, Reliability, and Controllability
 
 In this repository, you can find scripts for genereating new diagnostics of different MCMC algorithms. 
 
 ## Description
 
-MCMC algorithms can quantify parameter uncertainties in hydrological models, but this is rarely done because it is computationally expensive. Diagnostics from Multi Objective Evolutionary Algorithms (MOEA) were adapted to compare MCMC algorithms’ effectiveness, efficiency, reliability, and controllability to inform which algorithms to use for which types of problems. This can also inform the design of MCMC algorithms that converge faster. We find benefits of using adaptive proposal hyper-parameters and multiple proposal operators on a hydrological model calibration problem.
+MCMC algorithms can quantify parameter uncertainties in complex models, but this is rarely done because it is computationally expensive. Diagnostics from Multi Objective Evolutionary Algorithms (MOEA) were adapted to compare MCMC algorithms’ effectiveness, efficiency, reliability, and controllability to inform which algorithms to use for which types of problems. This can also inform the design of MCMC algorithms that converge faster. We find benefits of using adaptive proposal hyper-parameters and multiple proposal operators on a hydrological model calibration problem.
 
 ## Getting Started
 
 ### Test Problems
 
-We have three case studies here. 10-D bimodal mixed Gaussian distribution, and High-dimensional (100-D) multivariate normal distribution. 
+We have two case studies here. 10-D bimodal mixed Gaussian distribution, and High-dimensional (100-D) multivariate normal distribution. 
 
 ### MCMC Algorithms
 
