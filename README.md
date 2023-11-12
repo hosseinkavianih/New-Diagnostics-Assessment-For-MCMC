@@ -14,7 +14,7 @@ We have two case studies here. 10-D bimodal mixed Gaussian distribution, and Hig
 
 ### MCMC Algorithms
 
-In each problem, four different algorithms of Metropolis Hastings (MH), Adaptive Metroplis (AM), Differential Evolution Adaptive Metropolis (DREAM), and Sequential Monte Carlo (SMC) were applied. 
+In each problem, four different algorithms of Metropolis Hastings (MH), Adaptive Metroplis (AM), and Differential Evolution Adaptive Metropolis (DREAM).
 
 ### Hyperparameters
 
@@ -61,6 +61,5 @@ In this directory, you can generate Attainment and control maps, and CDF of spec
 ## Acknowledgments
 
 * [BayesianTools](https://github.com/florianhartig/BayesianTools)
-* [PYMC3](https://github.com/pymc-devs/pymc)
-* [PYHMC](https://github.com/rmcgibbo/pyhmc)
+* [PyDREAM](https://github.com/LoLab-MSM/PyDREAM)
 * [MOEA](https://www.sciencedirect.com/science/article/pii/S0309170816300896)
