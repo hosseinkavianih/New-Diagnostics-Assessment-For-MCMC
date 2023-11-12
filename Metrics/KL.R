@@ -1,14 +1,19 @@
+# This is a prallel run for whatever number of parameters that there are
 
 arg=commandArgs(T)
 
-
+# K defines the number of parameters
 
 k <- strtoi(arg[1]) + 1
 
+# Set path to the MH output files
+Path <- "Set the path here"
 
-setwd("/project/quinnlab/hk3sku/MCMC/bimodal/Post-AMNew")
+setwd(Path)
 
-true <- read.table("/project/quinnlab/hk3sku/MCMC/bimodal/samplemhbimodal.txt") 
+# Set the path to read the truth
+
+true <- read.table("samplemhbimodal.txt") 
 
 klmatrix <- matrix(NA,25,1)
 
@@ -20,7 +25,6 @@ library(FNN)
 if (length(lofparam) > 0) {
  
  load(Pattern)
- #lofparam <- list.files(pattern = Pattern)
  
  for (i in 1:length(listposterior)) {
   tryCatch({
@@ -31,5 +35,5 @@ if (length(lofparam) > 0) {
  }
 }
 
-outputFile <- paste("/project/quinnlab/hk3sku/MCMC/bimodal/KLAMNew/KL", k,  ".Rdata",sep="")
+outputFile <- paste(Path,"/KLAM/KL", k,  ".Rdata",sep="")
     save(klmatrix,file = outputFile)
