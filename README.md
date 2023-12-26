@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10433049.svg)](https://doi.org/10.5281/zenodo.10433049)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10433119.svg)](https://doi.org/10.5281/zenodo.10433119)
 
 
 # New Diagnostic Assessment of MCMC Algorithm Effectiveness, Efficiency, Reliability, and Controllability
