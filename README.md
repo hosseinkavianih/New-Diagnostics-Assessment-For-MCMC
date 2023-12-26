@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/456547500.svg)](https://zenodo.org/doi/10.5281/zenodo.10433048)
+
 # New Diagnostic Assessment of MCMC Algorithm Effectiveness, Efficiency, Reliability, and Controllability
 
 In this repository, you can find scripts for genereating new diagnostics of different MCMC algorithms. 
