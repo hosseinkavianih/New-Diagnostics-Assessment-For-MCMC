@@ -4,7 +4,8 @@ In this repository, you can find scripts for genereating new diagnostics of diff
 
 ## Description
 
-MCMC algorithms can quantify parameter uncertainties in complex models, but this is rarely done because it is computationally expensive. Diagnostics from Multi Objective Evolutionary Algorithms (MOEA) were adapted to compare MCMC algorithms’ effectiveness, efficiency, reliability, and controllability to inform which algorithms to use for which types of problems. This can also inform the design of MCMC algorithms that converge faster. We find benefits of using adaptive proposal hyper-parameters and multiple proposal operators on a hydrological model calibration problem.
+Markov Chain Monte Carlo (MCMC) is a robust statistical approach for estimating posterior distributions. However, the significant computational cost associated with these methods presents a considerable challenge, complicating the selection of an appropriate MCMC algorithm tailored to the specific problem at hand. This study introduces a novel and comprehensive framework for evaluating the performance of MCMC algorithms, drawing inspiration from diagnostics used for multi-objective evolutionary algorithms. We employ visualizations to evaluate key algorithmic characteristics: Effectiveness (the ability to accurately find representative posterior modes, quantified by the Kullback-Leibler Divergence (KLD) and Wasserstein Distance (WD), Efficiency (the speed of posterior characterization), Reliability (consistency across different random seeds), and Controllability (insensitivity to hyperparameter variation). Findings can inform MCMC algorithm selection for Bayesian inference applications, as well as hyperparameterization of the chosen algorithm. More importantly, the diagnostics
+represent a generalizable contribution. 
 
 ## Getting Started
 
